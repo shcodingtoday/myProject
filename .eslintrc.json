@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "react-native/react-native": true
+    },
+    "extends": ["airbnb", "airbnb/hooks"],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+    },
+    "plugins": [
+        "prettier",
+        "react",
+        "react-native"
+    ]
+}
